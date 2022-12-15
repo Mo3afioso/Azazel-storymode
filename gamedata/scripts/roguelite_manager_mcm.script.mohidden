@@ -1,0 +1,44 @@
+function on_mcm_load()
+    local op = {
+        id = "roguelite",
+        sh = true,
+        gr = {
+            {
+                id = "title",
+                type = "slide",
+                link = "ui_options_slider_gameplay_diff",
+                text = "ui_mcm_roguelite_title",
+                size = {512,50},
+                spacing = 20
+            },
+            --Global Settings
+            {
+                id = "is_roguelite_enabled",
+                type = "check",
+                val = 1,
+                def = true
+            },
+            {
+                id = "debug",
+                type = "check",
+                val = 1,
+                def = false
+            },
+        }
+    }
+
+    local modules = roguelite_manager.get_modules()
+
+    for _, module in pairs(modules) do
+        if module.append_mcm_options then 
+            module.append_mcm_options(op.gr)
+        end
+    end
+
+    return op
+end
+
+function get_config(key)
+    local opt = ui_mcm and ui_mcm.get("roguelite/"..key)
+    return opt
+end

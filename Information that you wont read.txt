@@ -1,0 +1,42 @@
+This is a script pack that allows Azazel-ironman mode to work within warefare AND storymode. This has Jabbers Rougelite built in. rougelite Hideout bugs will be fixed in future updates by Jabbers..hopefully.
+
+Stashes work through jabbers. 
+
+For Iron man, once you run out of bodies to switch to.. thats it. so.. in azazel settings, limit yourself to just companions. or dont... its up to you on how hard you want the game. 
+
+This inlcudes some fixes by _Zazquatch_ 
+
+his original mod: https://www.moddb.com/mods/stalker-anomaly/addons/azazel-tweaks
+
+His fixes are: 
+
+- Spawn with small survival-kit - Money get's properly reset after death - No more Azazel corpses - Withdrawing from wallet fixed.
+
+I was quite unsatisfied with how poorly Azazel-mode get's treated in Anomaly.
+
+So I made a few tweaks of my own to make it harder, but also a lot fairer!
+
+Everytime you die, your gear is GONE! No body is there to recover
+I made this change because Azazel-corpses are buggy as hell. Damaged items are suddenly pristine 100%, the corpse itself is also always T-posing or floating. If playing with ironman it will also make it more exciting, making you question every decision even more!
+Your lose all your money when dying!
+This is the primary reason I made this addon. I noticed how your money doesn't reset after dying. I had around 30k roubles on my previous character, died and suddenly had around 32k. This was because anomaly somehow forgot to reset your money when you die and instead just adds it. No more! Now you lose your precious money. Either spend it or stash it! More on that later. Your new character will still have about the same amount as when you create a new character in the character-creation menu.
+You always get a small survival kit when entering a new character
+It is quite shitty and makes you lose all motivation when you respawn as Renegade with 7 5.56 bullets but you have a double-barrel shotgun without spare ammo and are in the swamps without any meds or food. Good luck making it to the bandit-base with every faction on the way being hostile to you! Optional version without extra items included per request.
+You now spawn with about the same stuff as when you create a new character via menu:
+1x PDA
+1x Backpack
+1x Leather jacket
+2x Bandages
+2x Medkits
+1x Cigarettes
+1x Matchbox
+1x Water flask
+1x Bread
+1x PM Handgun
+32x 9x18 FMJ ammo
++ whatever your character happens to have in his inventory
+Withdrawing from wallet is fixed
+Withdrawing money out of your wallet was somehow disabled or bugged in newer versions of Anomaly. I didn't create this fix myself, I found it on moddb or somewhere on the discord. Sadly I forgot who made it and can't credit him/her. But I decided to include this fix anyway since it's kind of needed for these Azazel-tweaks.
+
+Credit goes to Aruhito_0. I borrowed the money-deletion script from his Azazel-fixes for CoC.
+

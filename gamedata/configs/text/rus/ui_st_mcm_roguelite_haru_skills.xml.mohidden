@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+
+    <!--Trader Reputation Settings-->
+    <string id="ui_mcm_roguelite_haru_skills_description">
+        <text>Сохранение системы навыков Хару</text>
+    </string>
+    <string id="ui_mcm_roguelite_is_haru_skills_restore_enabled">
+        <text>Включено</text>
+    </string>
+    
+</string_table>
