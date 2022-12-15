@@ -1,0 +1,2 @@
+# Azazel-storymode
+ Azazel storymode!!! 
